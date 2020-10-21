@@ -1,0 +1,164 @@
+#principal{
+	width: 900px;
+	height: 1550px;
+	border: 0px solid #000;
+	margin: auto;
+}
+
+header{
+	width: 900px;
+	height: 130px;
+	border: 0px solid #000;
+
+}
+
+#logo{
+	width: 150px;
+	height: 120px;
+	border: 0px solid #000;
+	float: left;
+	background: #fff;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+.logo{
+	border-radius: 6px;
+}
+.slider{
+	width: 900px;
+	height: 500px;
+	margin: auto;
+	overflow: hidden;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 20s infinite alternate linear;
+}
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 100%;
+	border-radius: 6px;
+}
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+.menu{
+	width: 650px;
+	height: 45px;
+	border: 1px solid #000;
+	float: right;
+	margin-top: 40px;
+	background: #000 ;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+}
+.menu ul{
+
+}
+
+.menu ul li{
+	list-style: none;
+	float: right;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	padding: 15px 30px;
+	border: 0px solid #000;
+	color: #fff;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 	
+}
+
+.menu ul li a:hover{
+	background: #fff;
+	color: #000;
+
+}
+#fondo{
+	margin-top: 0px;
+	width: 900px;
+	height: 500px;
+}
+
+#categorias{
+	width: 900px;
+	height: 600px; overflow: hidden;
+	border: 0px solid #ccc;
+	margin-top: 0px;
+	line-height: 1.5;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+}
+
+.uno{
+	width: 290px;
+	height: 540px;
+	border: 0px solid;
+	float: left; 
+}
+
+.dos{
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+.boton{
+	border: 0px solid #000;
+	padding: 6px;
+	background-color: #000 ;
+	color: #fff;
+	text-decoration: none;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-family: 'arial', sans-serif;
+}
+
+.boton :hover {
+background-color:#000000;
+}
+#info{
+	width: 900px;
+	height: 200px;
+	border: 0px solid #c0c0c0;
+	margin-top: 10px;
+}
+#izquierda{
+	width: 590px;
+	height: 250px;
+	border: 0px solid #000;
+	float: left;
+	line-height: 1.5;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+}
+.img{
+	margin-right: 7px;
+	margin-bottom: 7px;
+	border-radius: 6px;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+}
+
+#derecha{
+	width: 290px;
+	height: 250px;
+	border: 0px solid #000;
+	float: right;
+	box-shadow: 0px 15px 25px rgba(0,0,0,0.50); 
+}
+.izquierda p{
+margin-left: 300px;
+}

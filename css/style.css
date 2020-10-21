@@ -1,0 +1,140 @@
+body {
+    font-family: Open Sans;
+    margin: 0px;
+}
+#inicio{
+    width: 900px;
+    height: 850px;
+    border: 0px solid #000;
+    margin: auto;
+}
+header{
+    width: 900px;
+    height: 130px;
+    border: 0px solid #000;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);    
+
+}
+#logo{
+    width: 150px;
+    height: 120px;
+    border: 0px solid #000;
+    float: left;
+    background: #fff;
+    box-shadow: 0px 15px 25px rgba(0,0,0,0.50);
+}
+#degrade{
+    width: 150px;
+    height: 120px;
+    border: 0px solid #000;
+    float: left;
+    background: #fff;
+}
+.menu{
+    width: 430px;
+    height: 45px;
+    border: 0px solid #000;
+    float: right ;
+    margin-right: 100px; 
+    margin-top: 30px;
+    background: #000 ;
+}
+.menu ul{
+}
+.menu ul li{
+    list-style: none;
+    float: right;
+}
+.menu ul li a{
+    text-decoration: none;
+    padding: 5px 40px;
+    border: 0px solid #000;
+    color: #fff;    
+}
+.menu ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+h1 {
+    font-family: Montserrat;
+    font-size: 40px;
+    color: #C51A1A;
+    font-weight: 600;
+    letter-spacing: -3px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #C51A1A;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+.cuerpo {
+    max-width: 1100px;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenido {
+    float: left;
+    width: 65%;
+}
+
+div.contenido img {
+    width: 100%;
+}
+
+.barra-lateral {
+    padding-top: 40px;
+    float: right;
+    width: 30%;
+}
+
+.barra-lateral h3 {
+    color: #C51A1A;
+    text-align: center;
+    border-bottom: 1px solid #444;
+}
+
+.pie {
+    clear: both;
+    color: white;
+    background-color: #2C3E50;
+    min-height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width: 640px) {
+    .barra-lateral {
+        display: none;
+    }
+
+    .cuerpo {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contenido {
+        float: none;
+        width: 100%;
+    }
+
+    h1, h2, h3 {
+        text-align: center;
+    }
+}
+.abajo{
+    width: 900px;
+    height: 120px;
+    border: 0px solid #000;
+    float: right;
+    margin-right: -20px;
+    margin-top: 40px;
+}
